@@ -15,7 +15,7 @@ jobs:
       - name: Prepare
         id: prepare
         run: |
-          DOCKER_IMAGE=dockerhub.io/robert197/docker-action-examples
+          DOCKER_IMAGE=robert197/github-actions-example-docker-push
           VERSION=""
           TAGS=""
           if [[ $GITHUB_REF == refs/tags/* ]]; then
